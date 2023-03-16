@@ -12,7 +12,7 @@
  RootModule = '.\absolutePowerShell'
 
 # Version number of this module.
-ModuleVersion = '1.8.2'
+ModuleVersion = '1.8.3'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
