@@ -139,7 +139,7 @@ function Make-request(){
         }
     
         if($body -eq ''){
-            $response = Invoke-RestMethod -Uri $url -Method $method -Header $header -InformationVariable $info -ContentType $ContentType
+            $response = Invoke-RestMethod -Uri $url -Method $method -Header $header -ContentType $ContentType
             }
         else{
             $response = Invoke-RestMethod -Uri $url -Method $method -Header $header -Body $body -ContentType $ContentType
